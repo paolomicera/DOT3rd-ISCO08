@@ -12,4 +12,16 @@
 *.toc
 *.lof
 *.lot
+# File generati da editori di testo
+*.swp
+*.swo
+*~
 
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# File di backup
+*.bak
+*.tmp
+*.old
