@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1740998132.87095 "main.bcf" "main.bbl" "main" 1740998137.34996 0
-  "main.bcf" 1740998137.25798 107820 c304d0543ecac46cd4d8897d87b8fb99 "pdflatex"
+["biber main"] 1740998132.87095 "main.bcf" "main.bbl" "main" 1740998694.39987 0
+  "main.bcf" 1740998694.2976 107820 c304d0543ecac46cd4d8897d87b8fb99 "pdflatex"
   "refs.bib" 1740997909.26859 171 1a1f648d6b07ffe2e3f64a663cc8f6ee ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1740998136.33965 "/Users/paolomicera/Documents/GitHub/DOT3rd-ISCO08/main.tex" "main.pdf" "main" 1740998137.35024 0
-  "/Users/paolomicera/Documents/GitHub/DOT3rd-ISCO08/main.tex" 1740998131.59608 2249 4265de4baf0cdd3e4e1134394b8ac996 ""
+["pdflatex"] 1740998693.36276 "/Users/paolomicera/Documents/GitHub/DOT3rd-ISCO08/main.tex" "main.pdf" "main" 1740998694.40017 0
+  "/Users/paolomicera/Documents/GitHub/DOT3rd-ISCO08/main.tex" 1740998693.20472 2600 ab07dbe70474452e70c0281a46aa8a4a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -177,11 +177,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1740956245.97752 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1740956231 8221447 ac9988d8a176075e20e7b8e0cf7ae0a7 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1740998137.25678 488 9b4fc2982f99b54d66a3f1039e8fc4a1 "pdflatex"
+  "main.aux" 1740998694.29639 488 9b4fc2982f99b54d66a3f1039e8fc4a1 "pdflatex"
   "main.bbl" 1740998135.36226 1698 88bf3fbddbef1e660b7133c95df349c1 "biber main"
-  "main.out" 1740998137.25715 103 9814c2d956916adb9290eca4e25c967a "pdflatex"
-  "main.run.xml" 1740998137.25854 2383 5bd9c3f4ce749ac925300f64d169b26b "pdflatex"
-  "main.tex" 1740998131.59608 2249 4265de4baf0cdd3e4e1134394b8ac996 ""
+  "main.out" 1740998694.29675 103 9814c2d956916adb9290eca4e25c967a "pdflatex"
+  "main.run.xml" 1740998694.29817 2383 5bd9c3f4ce749ac925300f64d169b26b "pdflatex"
+  "main.tex" 1740998693.20472 2600 ab07dbe70474452e70c0281a46aa8a4a ""
   (generated)
   "main.aux"
   "main.bcf"
