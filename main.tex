@@ -1,0 +1,70 @@
+\documentclass[11pt, a4paper, leqno]{article}
+\usepackage{a4wide}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{float, afterpage, rotating, graphicx}
+\usepackage{epstopdf}
+\usepackage{longtable, booktabs, tabularx}
+\usepackage{fancyvrb, moreverb, relsize}
+\usepackage{eurosym, calc}
+\usepackage{amsmath, amssymb, amsfonts, amsthm, bm}
+\usepackage{caption}
+\usepackage{mdwlist}
+\usepackage{xfrac}
+\usepackage{setspace}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{subcaption}
+\usepackage{minibox}
+\usepackage[
+    natbib=true,
+    bibencoding=inputenc,
+    bibstyle=authoryear-ibid,
+    citestyle=authoryear-comp,
+    maxcitenames=3,
+    maxbibnames=10,
+    useprefix=false,
+    sortcites=true,
+    backend=biber
+]{biblatex}
+
+\AtBeginDocument{\toggletrue{blx@useprefix}}
+\AtBeginBibliography{\togglefalse{blx@useprefix}}
+\setlength{\bibitemsep}{1.5ex}
+\addbibresource{refs.bib}
+
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    anchorcolor=black,
+    citecolor=NavyBlue,
+    filecolor=black,
+    menucolor=black,
+    runcolor=black,
+    urlcolor=NavyBlue
+}
+
+\widowpenalty=10000
+\clubpenalty=10000
+
+\setlength{\parskip}{1ex}
+\setlength{\parindent}{0ex}
+\setstretch{1.5}
+
+\title{Mapping Occupational Traits from the 1965 Third Edition of the Dictionary of Occupational Titles to the European ISCO 08 Classification \thanks{This document serves as an auxiliary source of information on the data used for the analysis in the paper \textit{``Working Conditions and Health at Work Over the Lifecycle: Evidence from Europe"}.}}
+
+\author{Anonymous} % oppure lascia \author{}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This document provides detailed information on the collection of data on working conditions from the digitalized version of the third edition of the Dictionary of Occupational Titles (DOT) and its conversion to the European classification system ISCO-08. 
+The Dictionary of Occupational Titles (DOT) was first published in 1939 and underwent four major updates: in 1949, 1965, 1977, and its final revision in 1991. Since then, it has been replaced by the Occupational Information Network (O*NET). 
+
+\printbibliography
+
+\end{document}
