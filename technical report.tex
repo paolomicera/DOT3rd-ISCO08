@@ -15,6 +15,8 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage{subcaption}
 \usepackage{minibox}
+\usepackage[bottom]{footmisc} 
+\setlength{\skip\footins}{12pt} % Aumenta lo spazio tra testo e footnote (prova a modificare 12pt)
 \usepackage[
     natbib=true,          % Usa citazioni in stile author-year
     bibencoding=inputenc,
@@ -72,8 +74,12 @@
 \setlength{\parskip}{1ex}
 \setlength{\parindent}{0ex}
 \setstretch{1.5}
-
-\title{Mapping Occupational Traits from the 1965 Third Edition of the Dictionary of Occupational Titles to the European ISCO 08 Classification \thanks{This document serves as an auxiliary source of information on the data used for the analysis in the paper \textit{``Working Conditions and Health at Work Over the Lifecycle: Evidence from Europe"}.}}
+\usepackage{titlesec}
+\titleformat{\title}{\bfseries\Large}{\thesection}{2em}{}
+\usepackage{titling}
+\pretitle{\begin{center}\Large\bfseries}
+\posttitle{\par\end{center}}
+\title{Mapping Occupational Traits from the Third Edition of the Dictionary of Occupational Titles to the European ISCO-08 Classification\thanks{This document serves as an auxiliary source of information on the data used for the analysis in the paper \textit{``Working Conditions and Health at Work Over the Lifecycle: Evidence from Europe"}.}}
 
 \author{Belloni, Lucifora, Micera} 
 
@@ -83,13 +89,21 @@
 \begin{document}
 
 \maketitle
-\vspace{-3em}
+\vspace{-6.2em}
 
 \begin{center}  \href{https://github.com/paolomicera/DOT3rd-ISCO08/blob/main/main.pdf}{\textbf{Most Updated Version}}
 \end{center}
 \section{Introduction}
 This document provides detailed information on the collection of data on working conditions from the digitalized version of the third edition of the Dictionary of Occupational Titles (DOT) and its conversion to the European classification system ISCO-08. 
 The Dictionary of Occupational Titles (DOT) was first published in 1939 and underwent four major updates: in 1949, 1965, 1977, and its final revision in 1991. Since then, it has been replaced by the Occupational Information Network (O*NET). The DOT is a comprehensive classification system of occupational information, which includes a wide range of variables, such as job titles, job descriptions, and occupational characteristics. The DOT was developed by the U.S. Department of Labor and was used for various purposes, such as job placement, vocational guidance, and labor market analysis. The contribution of this document is twofold. First, it provides a detailed description of the data collection process from the digitalized version of the 1965 third edition of the DOT. Second, it describes the mapping of the occupational traits from the DOT to the European classification system ISCO-08.
+
+\section{\textit{Dictionary of Occupational Titles} - Data Collection}
+The data on occupational traits were collected from the digitalized version of the 1965 third edition of the DOT. The digitalized version of the DOT was obtained from the . The DOT contains detailed information on 12,000 job titles, including job descriptions, job requirements, and occupational characteristics. The DOT is organized into nine major categories, which are further divided into subcategories. The nine major categories are: (1) Professional, Technical, and Managerial Occupations; (2) Clerical and Sales Occupations; (3) Service Occupations; (4) Agricultural, Fishery, and Forestry Occupations; (5) Processing Occupations; (6) Machine Trades Occupations; (7) Benchwork Occupations; (8) Structural Work Occupations; and (9) Miscellaneous Occupations. Each job title in the DOT is assigned a unique code, which is used to identify the job title in the DOT. The DOT also contains detailed information on the job requirements and occupational characteristics of each job title. The job requirements include the physical, mental, and sensory demands of the job, as well as the educational and training requirements. The occupational characteristics include the work environment, the work schedule, and the social and organizational aspects of the job. The data on occupational traits were collected from the digitalized version of the DOT using a web scraping tool. The web scraping tool was used to extract the job titles, job descriptions, job requirements, and occupational characteristics from the digitalized version of the DOT. The data on occupational traits were then cleaned and processed to create a dataset of occupational traits.
+
+
+
+
+
 
 
 
