@@ -11,7 +11,6 @@
 \usepackage{caption}
 \usepackage{mdwlist}
 \usepackage{xfrac}
-\usepackage{setspace}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{subcaption}
 \usepackage{minibox}
@@ -29,6 +28,9 @@
     backend=biber
 ]{biblatex}
 \addbibresource{refs.bib}  % Make sure this points to the correct .bib file
+\usepackage[left=0.8in, right=0.8in, top=1in, bottom=1in]{geometry}
+\linespread{0.7}  % Reduces the spacing
+
 
 
 \AtBeginDocument{\toggletrue{blx@useprefix}}
@@ -73,7 +75,8 @@
 
 \setlength{\parskip}{1ex}
 \setlength{\parindent}{0ex}
-\setstretch{1.5}
+\usepackage{setspace}
+\setstretch{1.2}
 \usepackage{titlesec}
 \titleformat{\title}{\bfseries\Large}{\thesection}{2em}{}
 \usepackage{titling}
@@ -87,6 +90,7 @@
 
 
 \begin{document}
+\setlength{\droptitle}{-5em}   % This will reduce the space before the title
 
 \maketitle
 \vspace{-6.2em}
@@ -100,7 +104,7 @@ The Dictionary of Occupational Titles (DOT) was first published in 1939 and unde
 \section{\textit{Dictionary of Occupational Titles} - Data Collection}
 The data on occupational traits were collected from the digitalized version of the first supplement of the 1965 third edition of the DOT. This supplement contains more than 13,000 job titles, including job descriptions, job requirements, and occupational characteristics. The DOT is organized to provide a 9-digits code for each occupation where the first digits divides them into nine major categories, which are further divided into subcategories at three digits level. The nine major categories are: (1) Professional, Technical, and Managerial Occupations; (2) Clerical and Sales Occupations; (3) Service Occupations; (4) Agricultural, Fishery, and Forestry Occupations; (5) Processing Occupations; (6) Machine Trades Occupations; (7) Benchwork Occupations; (8) Structural Work Occupations; and (9) Miscellaneous Occupations. Each job title in the DOT is assigned a unique code, which is used to identify the job title in the DOT. While the first three digits of the DOT code are for the  occupational group the job belongs to. The digits from 4 to 6 contain information on how the job relates to data, people, and things, as they specifically indicate the job’s relationship to Data, People, and Things, respectively. These digits classify the job based on the highest level of complexity required for each of these interactions. The last three digits of the DOT code are used to identify the job title within the occupational group.
 
-The DOT also contains detailed information on the job requirements and occupational characteristics of each job title. The job requirements include the physical, mental, and sensory demands of the job, as well as the educational and training requirements. The occupational characteristics include the work environment, the work schedule, and the social and organizational aspects of the job. The data on occupational traits were collected from the digitalized version of the DOT using a web scraping tool. The web scraping tool was used to extract the job titles, job descriptions, job requirements, and occupational characteristics from the digitalized version of the DOT. The data on occupational traits were then cleaned and processed to create a dataset of occupational traits.
+The DOT also contains detailed information on the job requirements and occupational characteristics of each job title.The job requirements include the physical demand, exposure to specific hazards or conditions, and psychosocial requirements, as well as the educational and training requirements. To match the demand of specific worker profile, D provides detailed information on the skills, capacities, and work preferences essential for effective job performance. It also includes data on the levels of specialized training time required to qualify for each occupation.
 
 
 
