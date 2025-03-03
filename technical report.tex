@@ -18,17 +18,17 @@
 \usepackage[bottom]{footmisc} 
 \setlength{\skip\footins}{12pt} % Aumenta lo spazio tra testo e footnote (prova a modificare 12pt)
 \usepackage[
-    natbib=true,          % Usa citazioni in stile author-year
+    natbib=true,
     bibencoding=inputenc,
-    bibstyle=authoryear,  % Stile bibliografico autore-anno
+    bibstyle=authoryear,  % <--- MAKE SURE THIS MATCHES YOUR STYLE
     citestyle=authoryear,
-    maxcitenames=3,       % Mostra massimo 3 autori prima di usare "et al."
-    maxbibnames=10,       % Mostra fino a 10 autori in bibliografia
+    maxcitenames=3,
+    maxbibnames=10,
     useprefix=false,
-    sorting=nyt,          % Ordina per autore, anno, titolo
-    giveninits=true,      % Usa le iniziali per i nomi propri
-    backend=biber         % Usa Biber invece di BibTeX
+    sortcites=true,
+    backend=biber
 ]{biblatex}
+\addbibresource{refs.bib}  % Make sure this points to the correct .bib file
 
 
 \AtBeginDocument{\toggletrue{blx@useprefix}}
