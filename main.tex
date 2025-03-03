@@ -16,21 +16,23 @@
 \usepackage{subcaption}
 \usepackage{minibox}
 \usepackage[
-    natbib=true,
+    natbib=true,          % Usa citazioni in stile author-year
     bibencoding=inputenc,
-    bibstyle=authoryear-ibid,
-    citestyle=authoryear-comp,
-    maxcitenames=3,
-    maxbibnames=10,
+    bibstyle=authoryear,  % Stile bibliografico autore-anno
+    citestyle=authoryear,
+    maxcitenames=3,       % Mostra massimo 3 autori prima di usare "et al."
+    maxbibnames=10,       % Mostra fino a 10 autori in bibliografia
     useprefix=false,
-    sortcites=true,
-    backend=biber
+    sorting=nyt,          % Ordina per autore, anno, titolo
+    giveninits=true,      % Usa le iniziali per i nomi propri
+    backend=biber         % Usa Biber invece di BibTeX
 ]{biblatex}
+
 
 \AtBeginDocument{\toggletrue{blx@useprefix}}
 \AtBeginBibliography{\togglefalse{blx@useprefix}}
 \setlength{\bibitemsep}{1.5ex}
-\addbibresource{refs.bib}
+\addbibresource{DOT.bib}
 
 \usepackage[unicode=true]{hyperref}
 \hypersetup{
@@ -43,7 +45,27 @@
     runcolor=black,
     urlcolor=NavyBlue
 }
-
+\renewbibmacro*{author}{%
+    \printnames{author}%
+    \setunit{\addcomma\space}%
+}
+\renewcommand*{\newunitpunct}{\addcomma\space}
+\renewbibmacro*{in:}{}
+\DeclareBibliographyDriver{article}{%
+    \usebibmacro{author}%
+    \usebibmacro{title}%
+    \newunit
+    \printfield{journaltitle}%
+    \setunit{\addcomma\space}%
+    \printfield{year}%
+    \setunit{\addcomma\space}%
+    \printfield{volume}%
+    \setunit{\addcomma\space}%
+    \printfield{number}%
+    \setunit{\addcomma\space}%
+    \printfield{pages}%
+    \newunit
+}
 \widowpenalty=10000
 \clubpenalty=10000
 
@@ -55,7 +77,8 @@
 
 \author{Belloni, Lucifora, Micera} 
 
-\date{\today}
+\date{}
+
 
 \begin{document}
 

@@ -19,35 +19,61 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{sample2023}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bd051a2f7a5f377e3a62581b0e0f8577}{%
-           family={Doe},
-           familyi={D\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod},
+    \entry{haddenDescriptiveDimensionsUS2004}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4438f487fd7620e5a744f679d80294ea}{%
+           family={Hadden},
+           familyi={H\bibinitperiod},
+           given={Wilbur\bibnamedelima C.},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc157e49c8cfcd03ef766ededdc5e4da}{%
+           family={Kravets},
+           familyi={K\bibinitperiod},
+           given={Nataliya},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c79de60715ad348945f1ecd253fd5e3}{%
+           family={Muntaner},
+           familyi={M\bibinitperiod},
+           given={Carles},
+           giveni={C\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{bd051a2f7a5f377e3a62581b0e0f8577}
-      \strng{fullhash}{bd051a2f7a5f377e3a62581b0e0f8577}
-      \strng{bibnamehash}{bd051a2f7a5f377e3a62581b0e0f8577}
-      \strng{authorbibnamehash}{bd051a2f7a5f377e3a62581b0e0f8577}
-      \strng{authornamehash}{bd051a2f7a5f377e3a62581b0e0f8577}
-      \strng{authorfullhash}{bd051a2f7a5f377e3a62581b0e0f8577}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \strng{namehash}{02c1a5c3a2a59bb4aba192d8b5ef0fc2}
+      \strng{fullhash}{02c1a5c3a2a59bb4aba192d8b5ef0fc2}
+      \strng{bibnamehash}{02c1a5c3a2a59bb4aba192d8b5ef0fc2}
+      \strng{authorbibnamehash}{02c1a5c3a2a59bb4aba192d8b5ef0fc2}
+      \strng{authornamehash}{02c1a5c3a2a59bb4aba192d8b5ef0fc2}
+      \strng{authorfullhash}{02c1a5c3a2a59bb4aba192d8b5ef0fc2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Sample Journal}
+      \field{abstract}{Several authors have successfully used the Dictionary of Occupational Titles to construct scales measuring occupational work environments. The Dictionary, however, has been replaced by the Occupation Information Network or O*NET, which offers expanded content and higher quality data. This paper reports an exploratory factor analysis of the O*NET (version 4.0). Four factors are identified. Three factors are comparable to the results of earlier analyses: substantive complexity, people versus things, and physical demands. A fourth factor, bureaucracy, is discovered that describes work in hierarchical organizations and oriented toward organizational policies and practices. O*NET variables and these factors can be linked to social studies via occupation codes and used as relatively objective and up to date assessments of work environments.}
+      \field{issn}{0049-089X}
+      \field{journaltitle}{Social Science Research}
+      \field{month}{3}
       \field{number}{1}
-      \field{title}{Sample Article}
-      \field{volume}{1}
-      \field{year}{2023}
+      \field{title}{Descriptive Dimensions of {{US}} Occupations with Data from the {{O}}*{{NET}}}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{2004}
+      \field{urldateera}{ce}
       \true{nocite}
-      \field{pages}{1\bibrangedash 10}
-      \range{pages}{10}
+      \field{pages}{64\bibrangedash 78}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/S0049-089X(03)00039-5
+      \endverb
+      \verb{file}
+      \verb /Users/paolomicera/Library/CloudStorage/OneDrive-UniversitàCattolicadelSacroCuore/PhD/PhD Thesis- Bando PNRR -Age-it- Micera Paolo/literature/Zotero/storage/QE72ZK43/S0049089X03000395.html
+      \endverb
+      \keyw{DOT,O*NET}
     \endentry
   \enddatalist
 \endrefsection

@@ -56,8 +56,7 @@
       <file>blx-natbib.def</file>
       <file>standard.bbx</file>
       <file>authoryear.bbx</file>
-      <file>authoryear-ibid.bbx</file>
-      <file>authoryear-comp.cbx</file>
+      <file>authoryear.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
@@ -81,7 +80,7 @@
       <file>main.bcf</file>
     </requires>
     <requires type="editable">
-      <file>refs.bib</file>
+      <file>DOT.bib</file>
     </requires>
   </external>
 </requests>
